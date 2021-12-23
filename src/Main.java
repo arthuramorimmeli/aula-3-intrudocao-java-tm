@@ -18,7 +18,7 @@ public class Main {
         people.add(person2);
 
         System.out.println(people);
-        SortUtils.<Person>sort(people);
+        SortUtils.sort(people);
         System.out.println(people);
     }
 }

@@ -12,7 +12,6 @@ public class SortUtils {
                 Precedent<T> actual = listGeneric.get(j);
                 Precedent<T> next = listGeneric.get(j + 1);
                 if (next.precedeA((T) actual) < 0) {
-                    System.out.println(1);
                     Precedent<T> changeToActualPosition = listGeneric.get(j + 1);
                     listGeneric.remove(j+1);
                     listGeneric.add(j, changeToActualPosition);

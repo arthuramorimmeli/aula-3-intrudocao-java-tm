@@ -19,11 +19,8 @@ public class Person implements Precedent<Person> {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", cpf='" + cpf + '\'' +
-                '}';
+        return  "{name='" + name + '\'' +
+                ", cpf='" + cpf + '\'' +  "}";
     }
-
 
 }
